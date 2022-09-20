@@ -1,6 +1,7 @@
 {
-  "homepage": "https://mcutrer5.github.io/mcutrer5",
-  "name": "portfolio",
+
+  "homepage": "http://mcutrer5.github.io/mcutrer5/",
+  "name": "mcutrer5",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
