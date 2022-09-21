@@ -11,21 +11,21 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section home-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        <p style={{ color: "black" }}>
+          Stuff here
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
+              title="Item 1"
               description=""
               ghLink="#"
               demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Item 2"
               description=""
               ghLink="#"
               demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -47,7 +47,7 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
+              title="Item 3"
               description=""
               ghLink="#"
               demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"              
@@ -58,7 +58,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Item 4"
               description=""
               ghLink="#"
               demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -69,7 +69,7 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Item 5"
               description=""
               ghLink="#"
               demoLink="https://www.youtube.com/watch?v=dQw4w9WgXc" 
@@ -80,7 +80,7 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
+              title="Item 6"
               description=""
               ghLink="#"
               demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

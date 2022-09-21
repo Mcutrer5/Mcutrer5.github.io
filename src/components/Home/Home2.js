@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import cover from "../../Assets/cover.jpg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -58,9 +57,9 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
+            {/* <Tilt> */}
               <img src={cover} className="img-fluid" alt="avatar" />
-            </Tilt>
+            {/* </Tilt> */}
           </Col>
         </Row>
         <Row>
@@ -75,7 +74,7 @@ function Home2() {
                   href="https://github.com/Mcutrer5"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaFacebook />
                 </a>
@@ -114,9 +113,7 @@ function Home2() {
           </Col>
         </Row>
       </Container>
-      
     </Container>
-    
     );
 }
 export default Home2;
