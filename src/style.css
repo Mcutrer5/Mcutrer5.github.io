@@ -14,13 +14,31 @@ html {
     rgba(17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
   ); */
-  width: 101%;
-  --imp-text-color: rgb(93, 188, 69);
+  width: 100%;
+  --imp-text-color: rgb(0,0,0);
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    position: relative !important;
+  }
+
 }
 
 .purple {
   color: var(--imp-text-color) !important;
+}
+
+.black {
+  color: black !important;
 }
 
 button:focus {
@@ -78,9 +96,23 @@ button:focus {
   border-radius: 12px;
 }
 
-/* --------- */
+/* --------------- */
 /* Navbar Section  */
-/* --------- */
+/* --------------- */
+
+.dropdown-toggle:after {
+  display: none !important;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul ul {
+  position: absolute;
+  width: 100%;
+}
+
 .sticky {
   background-color: whitesmoke !important;
   transition: all 0.3s ease-out 0s !important;
@@ -90,7 +122,7 @@ button:focus {
 
 .h1-fluid {
   font-size: 1.5rem !important;
-  color:rgb(0,0,0,0.7) !important;
+  color:rgb(0,0,0) !important;
 }
 .navbar {
   position: fixed !important;
@@ -173,13 +205,13 @@ button:focus {
   width: 88px !important;
 }
 
-.navbar-nav .nav-link {
-  color: rgba(0,0,0,.7) !important;
+.navbar-nav .nav-link .hashlink {
+  color: rgba(0,0,0) !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
 
-.nav-link {
+.nav-link .hashlink{
   padding: 0.8rem 1rem !important;
 }
 
@@ -208,7 +240,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: rgb(93, 188, 69);
+  background: grey;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -277,15 +309,26 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: url(./Assets/discog.jpg );
-  
-
+  /* background-image: url(./Assets/discog.jpg ); */
+  background-image: url(./Assets/burger.jpg );
   height: 100%; 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 12% !important;
+  padding-bottom: 20% !important;
   padding-top: 12% !important; 
+}
+
+/* This code to blur the background image to bring more attention to information */
+.blur-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255, 0);
+  backdrop-filter: blur(10px);
+  z-index: -1;
 }
 
 @media screen and (max-width: 767px) {
@@ -316,7 +359,7 @@ button:focus {
 }
 
 .main-name {
-  color: #e56b6f;
+  color: #000000;
 }
 
 .Typewriter__wrapper {
@@ -408,7 +451,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: black;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -416,13 +459,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #a76573;
+  box-shadow: 0 0 15px grey;
 }
 
 .home-social-icons:hover {
   color: #b56576;
-  box-shadow: 0 0 5px #b56576;
-  text-shadow: 0 0 2px #b56576;
+  box-shadow: 0 0 5px grey;
+  text-shadow: 0 0 2px grey;
 }
 
 .social-icons {
@@ -486,7 +529,7 @@ button:focus {
   overflow: hidden;
   width: 900px;
   height: 600px;
-  float: right;
+  float: center;
   /* margin: 0 0 50px 0; */
 }
 
@@ -516,17 +559,17 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  box-shadow: 0 4px 5px 3px grey !important;
+  color: black !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.1) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px grey !important;
 }
 
 .blog-card {
@@ -540,7 +583,7 @@ button:focus {
 .blog-card-view {
   background-color: transparent !important;
   /* box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important; */
-  box-shadow: 0 4px 5px 3px rgb(93, 188, 69) !important;
+  box-shadow: 0 4px 5px 3px grey !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -558,7 +601,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px grey !important;
 }
 
 .card-img-top {
@@ -575,8 +618,8 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: black !important;
+  border-color: black !important;
 }
 
 .btn-primary:hover {
@@ -589,18 +632,18 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: black !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
 
 /* --------- */
-/* About */
+/*   About   */
 /* --------- */
 
 .about-section {
-  background-image: url(./Assets/video.jpg);
+  /* background-image: url(./Assets/video.jpg); */
   background-attachment: fixed;
   /* width: 100%; */
   color: rgb(0, 0, 0) !important;
@@ -610,8 +653,6 @@ button:focus {
   /* background-position: top center; */
   /* background-repeat: no-repeat; */
   /* background-size: contain; */
-  padding-bottom: 200px !important;
-  padding-top: 200px !important; 
 }
 
 .tech-icons {
@@ -620,12 +661,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgb(93, 188, 69) !important;
+  border: 1.7px solid black !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(93, 188, 69, 0.3) !important;
+  box-shadow: 4px 5px 4px 3px grey !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -653,7 +694,7 @@ button:focus {
   border-radius: 10px !important;
   box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.37) !important;
   transition: all 0.5s ease 0s !important;
-  box-shadow: 0 4px 5px 3px rgb(93, 188, 69) !important;
+  box-shadow: 0 4px 5px 3px grey !important;
 }
 
 .about-activity {
@@ -804,8 +845,8 @@ button:focus {
 }
 
 .fork-btn-inner:hover {
-  background-color: rgb(93, 188, 69) !important;
-  border-color: rgb(93, 188, 69) !important;
+  background-color: grey !important;
+  border-color: grey !important;
   transform: translateY(-2px) !important;
 }
 .fork-btn-inner::after {

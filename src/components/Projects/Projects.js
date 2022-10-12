@@ -15,16 +15,16 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          The <strong className="black">Menu </strong>
         </h1>
         <p style={{ color: "black" }}>
           Stuff here
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={10} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
+              isBlog={true}
               title="Item 1"
               description=""
               ghLink="#"

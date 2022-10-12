@@ -6,10 +6,17 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Death Metal",
-          "Black Metal",
-          "Thrash Metal",
-          "Doom Metal",
+          "Burgers",
+          "Catfish",
+          "Chicken",
+          "Ice Cream",
+          "Hot Dogs",
+          "Pizza",
+          "Sandwiches",
+          "Shrimp",
+          "Steak",
+          "Tacos",
+          "Wings",
         ],
         autoStart: true,
         loop: true,
