@@ -29,9 +29,9 @@
 
 <p align="center">
   <!-- Add your favorite programming languages, frameworks, and tools here -->
-  - **Languages**: Typescript, Rust, Python
-  - **Frameworks & Libraries**: ReactJS, ExtJS
-  - **Tools & Software**: NeoVim, VSCode
+  - **Languages**: Typescript, Rust, Python <br/>
+  - **Frameworks & Libraries**: ReactJS, ExtJS <br/>
+  - **Tools & Software**: NeoVim, VSCode<br/>
   - **Database**: MySQL, MongoDB, STRSQL
 </p>
 
