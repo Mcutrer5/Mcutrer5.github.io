@@ -28,7 +28,6 @@
 <h2 align="center">💻 Technologies & Tools</h2>
 
 <p align="center">
-  <!-- Add your favorite programming languages, frameworks, and tools here -->
   - **Languages**: Typescript, Rust, Python <br/>
   - **Frameworks & Libraries**: ReactJS, ExtJS <br/>
   - **Tools & Software**: NeoVim, VSCode<br/>
