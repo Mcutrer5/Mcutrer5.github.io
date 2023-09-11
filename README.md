@@ -1,4 +1,4 @@
-# Hello, I'm [Your Name] 👋
+# Hello, I'm Micheal 👋
 
 [![GitHub followers](https://img.shields.io/github/followers/Mcutrer5?style=social)](https://github.com/Mcutrer5)
 
