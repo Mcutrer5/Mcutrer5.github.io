@@ -1,38 +1,84 @@
-# Hello, I'm Micheal 👋
+<!-- Header -->
+<p align="center">
+  <img src="your-profile-image-url" alt="Micheal Cutrer" width="200" height="200" />
+</p>
 
-[![GitHub followers](https://img.shields.io/github/followers/Mcutrer5?style=social)](https://github.com/Mcutrer5)
+<h1 align="center">👋 Hey there, I'm Micheal!</h1>
 
-I'm a passionate developer with a love for constantly learning new things. Welcome to my GitHub profile! Here, you'll find a collection of my projects, contributions, and endeavors in the world of technology.
+<p align="center">
+  <em>Passionate Innovator | Tech Enthusiast | Continuous Learner</em>
+</p>
 
-## 🔧 Technologies & Tools
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/github/followers/Mcutrer5?style=social" alt="GitHub Followers" />
+</p>
 
-- **Programming Languages:** Typescript, Rust, Python
-- **Frameworks & Libraries:** React, EXTJs
-- **Tools & Software:** NeoVim, VSCode
-- **Database:** PostGreSQL, MongoDB, STRSQL
+<!-- Introduction -->
+<p align="center">
+  Welcome to my <strong>digital realm</strong> where the <strong>lines of code</strong> and <strong>creativity</strong> merge to form <strong>digital art</strong>.
+</p>
 
-## 🌱 Currently Learning
+<!-- Stats -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mcutrer5&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
 
-I'm currently focused on enhancing my skills in database management. Continuous learning is a core principle in my journey, and I'm always eager to explore new horizons.
+<!-- Technologies -->
+<h2 align="center">💻 Technologies & Tools</h2>
 
-// todo
-## 🌟 Highlight Projects
+<p align="center">
+  <!-- Add your favorite programming languages, frameworks, and tools here -->
+  - **Languages**: Typescript, Rust, Python
+  - **Frameworks & Libraries**: ReactJS, ExtJS
+  - **Tools & Software**: NeoVim, VSCode
+  - **Database**: MySQL, MongoDB, STRSQL
+</p>
 
-Here are some of the projects I'm proud of:
+<!-- Learning -->
+<h2 align="center">🌱 Currently Learning</h2>
 
-1. [Project Name](ling): Brief description.
+<p align="center">
+  I'm currently on a quest to master <strong>Rust</strong>.<br />
+  Every line of code I write is a step forward on this exhilarating journey.
+</p>
 
-You can explore more of my work on my [Portfolio Website](https://mcutrer5.github.io) or by browsing my GitHub repositories.
+<!-- Work -->
+<h2 align="center">💼 Work</h2>
 
-## 📫 Get in Touch
+<p align="center">
+  - Junior Programmer at Data Systems Management
+</p>
 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
-- Email: [Email](mailto:mikeycmc73@gmail.com)
+<!-- Highlight Projects -->
+<h2 align="center">🌟 Highlight Projects</h2>
+** TODO **
 
-Feel free to reach out if you'd like to collaborate, discuss tech, or just chat. I'm always open to new opportunities and connections!
+<p align="center">
+  Here are some of the projects I'm proud of:
 
-## 🚀 Fun Facts
+  1. [Project Name](Link to Project): Brief description.
 
-- When I'm not coding, I enjoy taking lock walks down the countryside.
+  You can explore more of my work on my [Portfolio Website](https://mcutrer5.github.io) or by browsing my GitHub repositories.
+</p>
 
-Thanks for visiting my GitHub profile! 😊
+<!-- Contact -->
+<h2 align="center">📫 Get in Touch</h2>
+
+<p align="center">
+  - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
+  - Email: [Your Email Address](mailto:youremail@example.com)
+</p>
+
+<!-- Fun Facts -->
+<h2 align="center">🚀 Fun Facts</h2>
+
+<p align="center">
+  - When I'm not coding, I enjoy making music.
+  - I'm a huge fan of blurring the line between music and tech.
+</p>
+
+<!-- Footer -->
+<p align="center">
+  Thanks for visiting my GitHub profile! 😊
+</p>
